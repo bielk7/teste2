@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./mensagem1.css">
+</head>
+<body style="background-color: #0a2446;">
+    
+      <h1 style="margin-left: 800px;position: absolute; margin-top: 90px;color: #ffffff;">Para o meu grande amor...</h1>
+
+
+    <div class="container">
+
+      
+            <div id="quadrado2" >
+
+              
+              <img  src="./img/msg1.jpeg" style=" width: 390px;height: 390px; border-radius: 10px;" onclick="alert('Obrigado por sempre está do meu lado todos os dias, você é incrivel!')" alt="">
+            
+
+            </div>
+
+          </a>
+
+        <p style="margin-left: 500px;position: absolute;font-size: 17px; color: #ffffff;"> <br><br><br>“È nessas linhas que conto o quanto você meu amor è para mim<br> essencial como as palavras são para os poetas e o mar para os navegantes…”<br>
+<br>
+Meu amor nesse dia especial e incrível gostaria de sempre te lembrar o quanto eu te amo <br> como você è o meu amor e sempre será o meu amor, o meu maior companheiro pra toda vida.❤️<br>
+<br>
+Está do teu lado è se sentir único ou um só <br>Porque me sinto completo em ter você comigo<br>
+ouvir todos os dias a sua voz,ser notado pelos seus olhos, ser motivo do seu sorriso <br> E poder contar sempre com você me faz me sentir apaixonado por você <br>Alem disso me sinto sempre sendo amado e presente nas ambas rotinas.❤️<br>
+<br>
+Que hoje possa desejar para gente, toda leveza de uma flor para que<br> nossos dias sejam os mais leves e felizes como sempre são.<br>
+
+Que nós sejamos sempre um só, unidos.<br>Como amor de dois pinguins e repleto de carinho, atenção e todo cuidado.<br>
+
+        </p>
+
+      <a href="./voce.html"  target="_self" type="button" class="button" onclick="alert('Eu tambem te amooooo')" >Eu te amo meu bem</button>
+      </a>
+      
+    </div>
+
+
+
+    <script>
+        function typeWriter (elemento) {
+        const textoArray = elemento.innerHTML.split('');
+          elemento.innerHTML = '';
+             textoArray.forEach((letra, i) => {
+        setTimeout(function(){
+          elemento.innerHTML += letra;
+        }, 100 * i )
+       });
+    }
+
+           const titulo = document.querySelector('h1');
+             typeWriter (titulo);
+            
+
+
+    </script>
+
+
+   
+</body>
+</html>

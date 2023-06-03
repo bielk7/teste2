@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./voce.css">
+</head>
+<body style="background-color: #0a2446;">
+<div class="container">
+    <div class="heart"></div>
+    <h1 style="margin-bottom:450px;margin-right: -10px; position: absolute; font-size: 50px; color: #ffffff;">E eu quem amo mais né?</h1>
+    
+   
+    <div class="d-flex justify-content-around">
+        <a href="./video.html" target="_self">
+                <button id="yes" class="sim" style=" margin-top: 200px;margin-left: -370px;position: absolute;padding: 15px 10px 10px 10px;border-radius: 10px; transition: 0.5s ease;   background-color:rgb(255, 2, 2); display: inline-block; color: #ffffff;">sim</button>
+            </a>
+                <button id="not" class="nao" style=" margin-top: 200px;margin-left: -250px;position: absolute;padding: 15px 10px 10px 10px;border-radius: 10px; transition: 0.5s ease;   background-color:rgb(255, 2, 2); display: inline-block; color: #ffffff;">nao</button>
+        
+            </div>
+
+</div>
+
+
+<script>
+    document.querySelector('#not').addEventListener("mouseover", function(){
+
+        let h = window.innerHeight - 50;
+        let w = window. innerWidth - 50;
+        this.style.position = "absolute"
+        this.style.top = Math.random() * h + "px"
+        this.style.left = Math.random() * w + "px"
+    })
+
+</script>
+</body>
+</html>

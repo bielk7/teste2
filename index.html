@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>titulo</title>
+    <link rel="stylesheet" href="./Projeto amor/index.css">
+</head>
+<body style="background-color: #09203d;">
+
+    <div class="container">
+        
+        <div id="quadrado">
+          <a href="./Projeto amor/mensagem2.html" target="_self" onclick="alert('Te amooooooooo')">
+            <img src="./Projeto amor/img/foto1.jpeg" style="height:190px; width: 190px; margin: 5px; position: absolute;border-radius: 10px;" alt=""alt="">
+            </a>
+        </div>
+       
+        <div id="quadrado1">
+          <a href="./Projeto amor/mensagem1.html" target="_self" onclick="alert('Te amooooooooo')">
+               <img src="./Projeto amor/img/foto2.jpeg" style="height:190px; width: 190px; margin: 5px;border-radius: 10px;" alt="">
+          </a>
+        </div>
+
+        <p style="margin-bottom:280px;margin-right: -10px; position: absolute; font-size: 50px; color: #ffffff;">Olá meu amor!</p>
+       
+        <h1 style="margin-bottom:-280px;margin-right: -10px; position: absolute; font-size: 50px; color: #ffffff;">Bem vindo ao nosso dia!</h1>
+        
+       
+    </div>
+ 
+
+    <script>
+        function typeWriter (elemento) {
+        const textoArray = elemento.innerHTML.split('');
+          elemento.innerHTML = '';
+             textoArray.forEach((letra, i) => {
+        setTimeout(function(){
+          elemento.innerHTML += letra;
+        }, 100 * i )
+       });
+    }
+
+           const titulo = document.querySelector('p');
+             typeWriter (titulo);
+    </script>
+
+<script>
+  function typeWriter (elemento) {
+  const textoArray = elemento.innerHTML.split('');
+    elemento.innerHTML = '';
+       textoArray.forEach((letra, i) => {
+  setTimeout(function(){
+    elemento.innerHTML += letra;
+  }, 100 * i )
+ });
+}
+
+     const paragrafo = document.querySelector('h1');
+       typeWriter (paragrafo);
+</script>
+</body>
+</html>

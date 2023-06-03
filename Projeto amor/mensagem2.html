@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./mensagem2.css">
+</head>
+<body style="background-color: #0a2446;">
+
+      
+  <h1 style="margin-left: 200px;position: absolute; margin-top: 90px;color: #ffffff;">Para o meu grande amor...</h1>
+
+    <div class="container">
+
+          <div id="quadrado2">
+            <img src="./img/msg2.jpeg" style=" width: 390px;height: 390px; border-radius: 10px;" onclick="alert('Você é o meu amor, meu grande amor da minha vida!')" alt="">
+          </div>
+
+                <div id="quadrado1"></div>
+
+     <a href="./voce.html" type="button" class="button" onclick="alert('Eu tambem te amooooo')" >Eu te amo meu bem</button>
+      </a>
+
+
+      <p style="color: #ffffff; position: absolute; margin-left: -500px;"> “Se os seus detalhes estivesse presente em tudo que existe nesse mundo, <br>O mundo seria ainda mais bonito só por ter cada curva e sutileza da forma que só o seu corpo tem…”<br>
+<br>
+Então meu amor, venho te informar que so poesia não consigo demostrar o que è você pra mim❤️<br> Mas não se preocupe vou passar toda minha vida tentando te mostrar todos os dias oque você representa pra mim.<br> 
+<br>
+Esse do lado è o menino quem me faz ser a pessoa mais feliz que alguém poderia ser.<br>  Ele quem eu escolhi chamar de amor.❤️
+<br>
+Você se tornou o meu lugar favorito, meu aconchego predileto, meu local seguro. <br><br> É você quem eu quero amar todos os dias.Você è o encontro do meu coração com o amor.<br>Estarei todos os dias buscando te fazer o mais amado e o mais cuidado do mundo.<br><br>
+
+Estarei aqui todos os dias pra cuidar do que è meu e somente meu, que è de você meu amor.<br>E sempre cultivarei o seu amor como se fosse a primeira vez todos os dias.<br>
+Por que todos os dias è uma oportunidade de te conquistar um pouco mais.❤️<br>Quero sempre ta do seu lado te apoiando e acompanhado o seu lindo processo e te motivando sempre o meu marido!.❤️
+      </p>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+        function typeWriter (elemento) {
+        const textoArray = elemento.innerHTML.split('');
+          elemento.innerHTML = '';
+             textoArray.forEach((letra, i) => {
+        setTimeout(function(){
+          elemento.innerHTML += letra;
+        }, 100 * i )
+       });
+    }
+
+           const titulo = document.querySelector('h1');
+             typeWriter (titulo);
+            
+
+
+    </script>
+   
+</body>
+</html>
